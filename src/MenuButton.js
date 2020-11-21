@@ -10,7 +10,7 @@ const MenuButton = props => {
   return (
     <li className={active + disabled} key={props.id}>
       <a
-        href={`#${props.id}`}
+        href={`${props.id}`}
         role='tab'
         onClick={e => props.disabled || (props.collapsed ? props.onOpen(props.id) : (
           props.selected === props.id ? props.onClose() : props.onOpen(props.id)
