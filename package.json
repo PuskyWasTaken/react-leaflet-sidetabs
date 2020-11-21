@@ -1,10 +1,13 @@
 {
-  "name": "react-leaflet-sidetabs",
-  "version": "1.0.0",
-  "description": "react-leaflet sidebar inspired by leaflet-sidebar-v2",
-  "author": "eferhatg",
+  "name": "@pusky/react-leaflet-sidetabs",
+  "version": "2.0.0",
+  "description": "react-leaflet sidebar inspired by leaflet-sidebar-v2. Forked from eferhatg",
+  "author": "pusky",
   "license": "MIT",
-  "repository": "eferhatg/react-leaflet-sidetabs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PuskyWasTaken/react-leaflet-sidetabs.git"
+  },
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
@@ -62,5 +65,17 @@
     "leaflet": "^1.3.4",
     "prop-types": "^15.6.2",
     "react-leaflet": "^2.0.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/PuskyWasTaken/react-leaflet-sidetabs/issues"
+  },
+  "homepage": "https://github.com/PuskyWasTaken/react-leaflet-sidetabs#readme",
+  "directories": {
+    "example": "example"
+  },
+  "keywords": [
+    "react",
+    "leaflet",
+    "sidetabs"
+  ]
 }
